@@ -1,0 +1,42 @@
+.tabella {
+    border: 1px solid;
+    border-color: #263238;
+    width: 50%;
+}
+
+.tabella caption {
+    color: #263238;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 10px;
+}
+
+.tabella thead {
+    background-color: #455a64;
+    color: white;
+    font-weight: 700;
+}
+
+.tabella tr:nth-child(even) {
+    background-color: #eceff1;
+}
+
+.tabella tr:nth-child(odd) {
+    background-color: #b0bec5;
+}
+
+.tabella tfoot{
+    font-weight: 800;
+    background-color: #78909c;
+}
+
+.tabella td:nth-child(2) {
+    color: #003300;
+    text-align: right;
+}
+
+.tabella td:nth-child(3){
+    color: #7f0000;
+    text-align: right;
+}
+
